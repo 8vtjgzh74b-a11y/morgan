@@ -1,0 +1,25 @@
+# Build folders
+/build/
+/out/
+/target/
+
+# Minecraft specific
+*.class
+*.log
+*.lock
+*.tmp
+*.diff
+
+# Fabric Loom / Gradle
+.gradle/
+.fabric-cache/
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Other temporary files
+*.swp
+*.swo
