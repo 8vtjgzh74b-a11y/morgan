@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.w1naryx.w1nfastmod.mixin",
+  "package": "com.morgan.morganmod.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ChatHudAccessor",
@@ -10,5 +10,5 @@
   "injectors": {
     "defaultRequire": 1
   },
-  "refmap": "W1nFastMod-refmap.json"
+  "refmap": "MorganMod-refmap.json"
 }
