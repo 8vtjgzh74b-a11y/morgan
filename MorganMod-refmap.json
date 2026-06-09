@@ -1,28 +1,28 @@
 {
   "mappings": {
-    "com/w1naryx/w1nfastmod/mixin/ChatHudAccessor": {
+    "com/morgan/morganmod/mixin/ChatHudAccessor": {
       "messages": "field_2061:Ljava/util/List;",
       "scrolledLines": "field_2066:I",
       "visibleMessages": "field_2064:Ljava/util/List;"
     },
-    "com/w1naryx/w1nfastmod/mixin/ChatHudMixin": {
+    "com/morgan/morganmod/mixin/ChatHudMixin": {
       "addMessage(Lnet/minecraft/text/Text;)V": "Lnet/minecraft/class_338;method_1812(Lnet/minecraft/class_2561;)V"
     },
-    "com/w1naryx/w1nfastmod/mixin/ChatScreenMixin": {
+    "com/morgan/morganmod/mixin/ChatScreenMixin": {
       "mouseClicked": "Lnet/minecraft/class_408;method_25402(DDI)Z"
     }
   },
   "data": {
     "named:intermediary": {
-      "com/w1naryx/w1nfastmod/mixin/ChatHudAccessor": {
+      "com/morgan/morganmod/mixin/ChatHudAccessor": {
         "messages": "field_2061:Ljava/util/List;",
         "scrolledLines": "field_2066:I",
         "visibleMessages": "field_2064:Ljava/util/List;"
       },
-      "com/w1naryx/w1nfastmod/mixin/ChatHudMixin": {
+      "com/morgan/morganmod/mixin/ChatHudMixin": {
         "addMessage(Lnet/minecraft/text/Text;)V": "Lnet/minecraft/class_338;method_1812(Lnet/minecraft/class_2561;)V"
       },
-      "com/w1naryx/w1nfastmod/mixin/ChatScreenMixin": {
+      "com/morgan/morganmod/mixin/ChatScreenMixin": {
         "mouseClicked": "Lnet/minecraft/class_408;method_25402(DDI)Z"
       }
     }
