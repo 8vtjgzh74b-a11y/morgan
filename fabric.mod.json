@@ -1,24 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "w1nfastmod",
+  "id": "morganmod",
   "version": "1.0.1",
-  "name": "W1nFastMod",
-  "description": "Административный мод для быстрой выдачи наказаний",
-  "authors": [
-    "W1naryx"
-  ],
+  "name": "MorganMod",
+  "description": "Административный мод для сервера HypeCube",
+  "authors": [ "morgan" ],
   "contact": {
     "sources": "https://github.com/8vtjgzh74b-a11y/morgan"
   },
   "license": "MIT",
-  "icon": "assets/w1nfastmod/icon.png",
+  "icon": "assets/morganmod/icon.png",
   "environment": "client",
   "mixins": [
-    "w1nfastmod.mixins.json"
+    "morganmod.mixins.json"
   ],
   "entrypoints": {
     "client": [
-      "com.w1naryx.w1nfastmod.W1nFastModClient"
+      "com.morgan.morganmod.MorganModClient"
     ]
   },
   "depends": {
