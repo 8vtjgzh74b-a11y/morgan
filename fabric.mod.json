@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "w1nfastmod",
+  "version": "1.0.1",
+  "name": "W1nFastMod",
+  "description": "Административный мод для быстрой выдачи наказаний",
+  "authors": [
+    "W1naryx"
+  ],
+  "contact": {
+    "sources": "https://github.com/W1naryx/W1nFastMod"
+  },
+  "license": "MIT",
+  "icon": "assets/w1nfastmod/icon.png",
+  "environment": "client",
+  "mixins": [
+    "w1nfastmod.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "com.w1naryx.w1nfastmod.W1nFastModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

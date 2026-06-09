@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.w1naryx.w1nfastmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChatHudAccessor",
+    "ChatHudMixin",
+    "ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "W1nFastMod-refmap.json"
+}
